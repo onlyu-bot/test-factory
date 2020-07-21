@@ -2,7 +2,7 @@
 `/factory/{product_number}/{info_number}`
 
 - First it shows the output of `Tests\Factories\ProductFactory::create();`
-- Then it shows the output of `Product::with('info')->get();`, but the products data have twice amount of which the ProductFactory had generated.
+- Then it shows the output of `Product::with('info')->get();`, but the products data are twice amount of the ProductFactory generated.
 
 ## Use the route to refresh database:
 `/refresh`
