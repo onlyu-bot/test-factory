@@ -28,7 +28,7 @@
 > [coderello/laravel-populated-factory](https://github.com/coderello/laravel-populated-factory) 
 - use it to generate `/database/factories/ProductFactories.php` from `/database/migrations/create_products_table.php`
 - with a modified generator [PR #17](https://github.com/coderello/laravel-populated-factory/pull/17)
-- command: `php artisan make:populated-factory Models\\Product`
+- command ex: `php artisan make:populated-factory Models\\Product`
 > [christophrumpel/laravel-factories-reloaded](https://github.com/christophrumpel/laravel-factories-reloaded)
 - use it to generate `/tests/Factories/ProductFactory.php` from `/database/factories/ProductFactories.php`
-- command `php artisan make:factory-reloaded`
+- command: `php artisan make:factory-reloaded`
