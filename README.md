@@ -17,4 +17,4 @@
 - use it to generate `/database/factories/ProductFactories.php` from `/database/migrations/create_products_table.php`
 - with a modified generator [PR #17](https://github.com/coderello/laravel-populated-factory/pull/17)
 > [christophrumpel/laravel-factories-reloaded](https://github.com/christophrumpel/laravel-factories-reloaded)
-- use it to generate `/tests\Factories/ProductFactory.php` from `/database/factories/ProductFactories.php`
+- use it to generate `/tests/Factories/ProductFactory.php` from `/database/factories/ProductFactories.php`
