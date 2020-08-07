@@ -2,7 +2,8 @@
 `/factory/{product_number}/{info_number}`
 
 - First it shows the output of `Tests\Factories\ProductFactory::create();`
-- Then it shows the output of `Product::with('info')->get();`, but the products data are twice amount of the ProductFactory generated.
+- Then it shows the output of `Product::with('info')->get();`
+- - [fix the issue](https://github.com/christophrumpel/laravel-factories-reloaded/issues/60) of products data generate twice amount of the ProductFactory.
 
 ## Use the route to refresh database:
 `/refresh`
