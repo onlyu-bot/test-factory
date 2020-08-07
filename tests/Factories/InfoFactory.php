@@ -23,7 +23,6 @@ class InfoFactory extends BaseFactory
     public function getDefaults(Faker $faker): array
     {
         return [
-            'product_id' => ProductFactory::new(),
             'description' => $faker->text(15),
             'created_at' => $faker->dateTime,
             'updated_at' => $faker->dateTime,

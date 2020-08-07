@@ -10,6 +10,6 @@ class Product extends Model
 
     public function info()
     {
-        return $this->hasOne(Info::class);
+        return $this->hasMany(Info::class);
     }
 }

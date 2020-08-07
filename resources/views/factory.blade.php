@@ -9,5 +9,5 @@
 <h3>Product::with('info')->get();</h3>
 <p>output:</p>
 <pre>
-{{$products}}
+{!!$products!!}
 </pre>
